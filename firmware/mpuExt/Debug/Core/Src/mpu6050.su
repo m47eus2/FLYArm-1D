@@ -1,0 +1,7 @@
+../Core/Src/mpu6050.c:33:9:mpu6050_ReadReg	40	static
+../Core/Src/mpu6050.c:39:6:mpu6050_WriteReg	32	static
+../Core/Src/mpu6050.c:43:6:mpu6050_ReadRawAccelGyro	48	static
+../Core/Src/mpu6050.c:57:6:mpu6050_ReadScaledAccelGyro	40	static
+../Core/Src/mpu6050.c:73:6:mpu6050_ReadRawBias	40	static
+../Core/Src/mpu6050.c:102:6:mpu6050_ReadRoll	64	static
+../Core/Src/mpu6050.c:134:6:mpu6050_Init	8	static
