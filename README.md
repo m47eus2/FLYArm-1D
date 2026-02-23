@@ -20,3 +20,9 @@ The project combines embedded programming, control theory, sensor fusion and mec
 - Only not 3D printed part - metal bearings
 - Designed in Autodesk Fusion
 - 3D printed with PLA on Prusa i3MK3S+
+
+## Digital Twin
+A digital twin of the system was developed for LQR regulator design.
+Model was implemented in Python and validated by comparing simulated responses with measurments from the real system.
+
+![Model Validation - Comparison of Simulated and Measured Responses](docs/model_validation.png)
