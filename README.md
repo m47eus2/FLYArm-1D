@@ -9,7 +9,7 @@ The goal is to stabilize the pendulum at a desired angle using BLDC motor with a
 The project combines embedded programming, control theory, sensor fusion and mechanical design.
 
 ![FLYArm Running](docs/FlyArmON.jpg)
-![FlyArm](docs/FlyArmOFF.jpg)
+![FLYArm](docs/FlyArmOFF.jpg)
 
 ## System Architecture
 - MCU: STM32 Nucleo L476RG
@@ -23,6 +23,8 @@ The project combines embedded programming, control theory, sensor fusion and mec
 - Only not 3D printed part - metal bearings
 - Designed in Autodesk Fusion
 - 3D printed with PLA on Prusa i3MK3S+
+
+![FLYArm 3D model](docs/model3d.png)
 
 ## Digital Twin
 A digital twin of the system was developed for LQR regulator design.
