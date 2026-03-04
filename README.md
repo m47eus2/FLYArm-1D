@@ -10,7 +10,7 @@ The project combines embedded programming, control theory, sensor fusion and mec
 
 ![FLYArm Running](docs/FlyArmON.jpg)
 ![FLYArm](docs/FlyArmOFF.jpg)
-![FlyArm Demo](https://youtu.be/Zwqv8pTMIBk)
+[![FlyArm Demo](docs/FlyArmON.jpg)](https://youtu.be/Zwqv8pTMIBk)
 
 ## System Architecture
 - MCU: STM32 Nucleo L476RG
