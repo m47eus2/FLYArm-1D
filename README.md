@@ -8,6 +8,9 @@ The goal is to stabilize the pendulum at a desired angle using BLDC motor with a
 
 The project combines embedded programming, control theory, sensor fusion and mechanical design.
 
+![FLYArm Running](docs/FlyArmON.jpg)
+![FlyArm](docs/FlyArmOFF.jpg)
+
 ## System Architecture
 - MCU: STM32 Nucleo L476RG
 - Actuator: BLDC motor with proppeler mounted at the end of the pendulum, driven by BlHeli_S ESC
