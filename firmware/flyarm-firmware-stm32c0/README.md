@@ -1,1 +1,0 @@
-# stm32c0-makefile-template
