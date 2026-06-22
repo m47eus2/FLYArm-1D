@@ -19,8 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "i2c.h"
-#include "stm32c0xx_hal_gpio.h"
-#include "stm32c0xx_hal_tim.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -29,7 +27,6 @@
 /* USER CODE BEGIN Includes */
 
 #include <stdio.h>
-#include <stdlib.h>
 #include "mpu6050.h"
 
 /* USER CODE END Includes */
@@ -166,9 +163,10 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
+  HAL_Delay(100);
   mpu6050_init(&hi2c1, 0x68<<1);
   HAL_Delay(100);
-  mpu6050_calibrateGyro(1000);
+  mpu6050_calibrateGyro(100);
 
   HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_ALL);
 
